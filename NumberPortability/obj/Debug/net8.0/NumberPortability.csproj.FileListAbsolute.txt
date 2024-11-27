@@ -1,0 +1,15 @@
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\bin\Debug\net8.0\numbers.txt
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\bin\Debug\net8.0\NumberPortability.exe
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\bin\Debug\net8.0\NumberPortability.deps.json
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\bin\Debug\net8.0\NumberPortability.runtimeconfig.json
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\bin\Debug\net8.0\NumberPortability.dll
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\bin\Debug\net8.0\NumberPortability.pdb
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.AssemblyInfoInputs.cache
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.AssemblyInfo.cs
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.csproj.CoreCompileInputs.cache
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.dll
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\refint\NumberPortability.dll
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.pdb
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.genruntimeconfig.cache
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\ref\NumberPortability.dll
