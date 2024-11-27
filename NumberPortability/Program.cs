@@ -6,7 +6,7 @@ namespace NumberPortability;
 internal class Program
 {
     private static int numberCount = 10;
-    private static Dictionary<string, string> portedNumbers = new();
+    private static Dictionary<Int32, ServiceProvider> portedNumbers = new();
 
     static void Main(string[] args)
     {
@@ -31,7 +31,6 @@ internal class Program
         foreach (var number in numbersToTest)
         {
             Console.WriteLine($"The number is {number} and the service provider is { IdentifyNetwork(number, out var ported)}  and port status:{ported}");
-            // IdentifyNetwork(number, out var ported);
         }
         
         checkTime.Stop();
@@ -97,7 +96,7 @@ internal class Program
             return portedNumbers[destination];
         }
         
-        //really does nothing just satisfying the method, but method should have been a void function 
+      
         return destination;
 
     }
