@@ -13,3 +13,4 @@ C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\ob
 C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.pdb
 C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.genruntimeconfig.cache
 C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\ref\NumberPortability.dll
+C:\Users\Left\Downloads\NumberPortability\NumberPortability\NumberPortability\obj\Debug\net8.0\NumberPortability.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberPortability")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b97f8a6ed375ca218cacb51aaee5dd29e04c0d5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberPortability")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberPortability")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
