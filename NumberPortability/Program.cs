@@ -11,34 +11,32 @@ internal class Program
     static void Main(string[] args)
     {
 
-      
-        // var numbersToTest = NumberGenerator.GenerateMobileNumbers(numberCount);
-        //
-        // // Memory usage before cache building
-        // long memoryBeforeCache = GC.GetTotalMemory(true);
-        // var buildTime = Stopwatch.StartNew();
-        // BuildCache("numbers.txt");
-        // buildTime.Stop();
-        // // Memory usage after cache building
-        // long memoryAfterCache = GC.GetTotalMemory(true);
-        // long memoryUsedInMB = (memoryAfterCache - memoryBeforeCache) / (1024 * 1024); // Convert bytes to MB
-        //
-        // Console.WriteLine($"Time to build cache: {buildTime.ElapsedMilliseconds}ms");
-        // Console.WriteLine($"Memory used by cache: {memoryUsedInMB} MB");
-        // Console.WriteLine($"Time to build cache: {buildTime.ElapsedMilliseconds}ms");
-        //
-        // var checkTime = Stopwatch.StartNew();
-        // foreach (var number in numbersToTest)
-        // {
-        //     IdentifyNetwork(number, out var ported);
-        // }
-        //
-        // checkTime.Stop();
-        // Console.WriteLine($"Time to check {numberCount} numbers: {checkTime.ElapsedMilliseconds}ms");
         Boolean isported = false;
+        var numbersToTest = NumberGenerator.GenerateMobileNumbers(numberCount);
+        
+        // Memory usage before cache building
+        long memoryBeforeCache = GC.GetTotalMemory(true);
+        var buildTime = Stopwatch.StartNew();
         BuildCache("numbers.txt");
-        //this number is ported to MTN
-         IdentifyNetwork("27758481252",out isported);
+        buildTime.Stop();
+        // Memory usage after cache building
+        long memoryAfterCache = GC.GetTotalMemory(true);
+        long memoryUsedInMB = (memoryAfterCache - memoryBeforeCache) / (1024 * 1024); // Convert bytes to MB
+        
+        Console.WriteLine($"Time to build cache: {buildTime.ElapsedMilliseconds}ms");
+        Console.WriteLine($"Memory used by cache: {memoryUsedInMB} MB");
+        Console.WriteLine($"Time to build cache: {buildTime.ElapsedMilliseconds}ms");
+        
+        var checkTime = Stopwatch.StartNew();
+        foreach (var number in numbersToTest)
+        {
+            IdentifyNetwork(number, out var ported);
+        }
+        
+        checkTime.Stop();
+        Console.WriteLine($"Time to check {numberCount} numbers: {checkTime.ElapsedMilliseconds}ms");
+       
+    
         
     }
 
@@ -142,9 +140,9 @@ internal class Program
 
     public static void IdentifyNetwork(string destination, out bool ported)
     {
-        int startposition = 5;
+        int startposition = 4;
         int length=destination.Length;
-        Int32 Identifier = Int32.Parse(destination.Substring(startposition + 1, length - (startposition+1)));
+        Int32 Identifier = Int32.Parse(destination.Substring(startposition+1 , length - (startposition+1)));
         String originalProvider = getOriginalProvider(destination.Substring(0,5));
         
         foreach (var kvp in portedNumbers)
